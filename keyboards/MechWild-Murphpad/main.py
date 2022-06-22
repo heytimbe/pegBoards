@@ -1,3 +1,5 @@
+
+
 from kb import KMKKeyboard
 
 from kmk.keys import KC
@@ -6,9 +8,9 @@ from kmk.modules.encoder import EncoderHandler
 
 keyboard = KMKKeyboard()
 layers_ext = Layers()
+keyboard.modules.append(layers_ext)
 encoder_handler = EncoderHandler()
 encoder_handler.pins = ((keyboard.encoder_pin_0, keyboard.encoder_pin_1, None, False),)
-
 keyboard.modules.append(layers_ext, encoder_handler)
 
 # keymap
