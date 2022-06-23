@@ -20,8 +20,8 @@ keyboard.keymap = [
         KC.F6, KC.COLON, KC.SLASH, KC.ASTERISK, KC.MINUS,
         KC.F5, KC.N7,   KC.N8,   KC.N9,   KC.PLUS,
         KC.AUDIO_MUTE,  KC.N4,   KC.N5,   KC.N6, KC.PLUS,
-        KC.NO, KC.N1,   KC.N2,   KC.N3,   KC.ENTER,
-        KC.BSPC, KC.N0,  KC.N0,   KC.DOT, KC.NO,
+        KC.MO(1), KC.N1,   KC.N2,   KC.N3,   KC.ENTER,
+        KC.BSPC, KC.N0,  KC.N0,   KC.DOT, KC.NO
     ],
 
 ]
