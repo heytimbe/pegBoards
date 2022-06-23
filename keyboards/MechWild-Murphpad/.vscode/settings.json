@@ -1,0 +1,10 @@
+{
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": false,
+    "python.analysis.extraPaths": [
+        "",
+        "c:\\Users\\Robert\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.17-win32-x64\\stubs",
+        "c:\\Users\\Robert\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20220622\\adafruit-circuitpython-bundle-py-20220622\\lib"
+    ],
+    "circuitpython.board.version": null
+}

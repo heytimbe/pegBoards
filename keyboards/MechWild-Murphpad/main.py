@@ -16,14 +16,12 @@ keyboard.modules.append(layers_ext, encoder_handler)
 # keymap
 keyboard.keymap = [
     [
-        KC.F1,   KC.F2,   KC.F3,   KC.F4,
-        KC.COLON, KC.KP_SLASH, KC.KP_ASTERISK, KC.KP_MINUS,
-        KC.KP_7,   KC.KP_8,   KC.KP_9,   KC.KP_PLUS,
-        KC.MUTE,  KC.KP_4,   KC.KP_5,   KC.KP_6,
-        KC.NO, KC.KP_1,   KC.KP_2,   KC.KP_3,   KC.KP_ENTER,
-        KC.BSPC,  KC.KP_0,   KC.NO, KC.KP_DOT,
-
-        KC.F5,   KC.F6,   KC.F7,
+        KC.RESET, KC.F1,   KC.F2,   KC.F3,   KC.F4,
+        KC.F6, KC.COLON, KC.SLASH, KC.ASTERISK, KC.MINUS,
+        KC.F5, KC.N7,   KC.N8,   KC.N9,   KC.PLUS,
+        KC.AUDIO_MUTE,  KC.N4,   KC.N5,   KC.N6, KC.PLUS,
+        KC.NO, KC.N1,   KC.N2,   KC.N3,   KC.ENTER,
+        KC.BSPC, KC.N0,  KC.N0,   KC.DOT, KC.NO,
     ],
 
 ]
